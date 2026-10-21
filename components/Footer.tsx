@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 import { AnimatedButton } from "@/components/AnimatedButton";
@@ -78,10 +79,14 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="col-span-2 space-y-4">
             <Link href="/" className="flex items-center space-x-3 group select-none">
-              <div className="relative w-8 h-8 flex items-center justify-center">
-                <div className="w-8 h-8 rounded-lg bg-[#f87171] opacity-90 flex items-center justify-center transform rotate-45 group-hover:rotate-90 transition-transform duration-300 shadow-xs">
-                  <div className="w-3.5 h-3.5 bg-white rounded-xs transform -rotate-45" />
-                </div>
+              <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+                <Image
+                  src="/logo.png"
+                  alt="AquaTerra Logo"
+                  width={36}
+                  height={36}
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex items-center space-x-2">
                 <span className="font-bold text-xl tracking-tight text-zinc-900">AquaTerra</span>

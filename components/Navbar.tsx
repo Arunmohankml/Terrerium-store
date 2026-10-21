@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -117,15 +118,20 @@ export const Navbar: React.FC = () => {
                 )}
               </button>
 
-              {/* Logo with Coral Geometric Mark */}
+              {/* Logo with Terrarium Glass Vessel Mark */}
               <Link 
                 href="/"
                 className="flex items-center space-x-2.5 sm:space-x-3 cursor-pointer select-none group"
               >
-                <div className="relative w-8 h-8 flex items-center justify-center">
-                  <div className="w-8 h-8 rounded-lg bg-[#f87171] opacity-90 flex items-center justify-center transform rotate-45 group-hover:rotate-90 transition-transform duration-300 shadow-xs">
-                    <div className="w-3.5 h-3.5 bg-white rounded-xs transform -rotate-45" />
-                  </div>
+                <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+                  <Image
+                    src="/logo.png"
+                    alt="AquaTerra Logo"
+                    width={36}
+                    height={36}
+                    className="w-full h-full object-contain"
+                    priority
+                  />
                 </div>
 
                 <div className="flex items-center space-x-2">

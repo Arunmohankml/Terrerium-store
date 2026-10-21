@@ -17,6 +17,15 @@ export const metadata: Metadata = {
   title: "AquaTerra Studio — Living Terrariums & Biophilic Ecosystems",
   description:
     "Handmade terrariums, moss gardens and little aquatic worlds. Made with care to bring a bit of green into your everyday life.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png" },
+    ],
+  },
 };
 
 export default function RootLayout({
