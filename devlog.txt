@@ -1,0 +1,437 @@
+
+> aquaterra-ecosystems@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1641ms
+ ○ Compiling / ...
+ ✓ Compiled / in 7s (1311 modules)
+ GET / 200 in 7391ms
+ GET / 200 in 53ms
+ GET / 200 in 69ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1027ms (1283 modules)
+ GET /images/terrarium-category.webp 404 in 1203ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 1200ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 1202ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 1202ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ GET /images/build-environment.webp 404 in 35ms
+ ⨯ The requested resource isn't a valid image for /images/build-environment.webp received text/html; charset=utf-8
+ GET /images/product-1.webp 404 in 29ms
+ ⨯ The requested resource isn't a valid image for /images/product-1.webp received text/html; charset=utf-8
+ GET /images/product-2.webp 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/product-2.webp received text/html; charset=utf-8
+ GET /images/product-3.webp 404 in 29ms
+ ⨯ The requested resource isn't a valid image for /images/product-3.webp received text/html; charset=utf-8
+ GET /images/product-4.webp 404 in 33ms
+ ⨯ The requested resource isn't a valid image for /images/product-4.webp received text/html; charset=utf-8
+ GET /images/product-5.webp 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/product-5.webp received text/html; charset=utf-8
+ GET /images/product-6.webp 404 in 41ms
+ ⨯ The requested resource isn't a valid image for /images/product-6.webp received text/html; charset=utf-8
+ GET /images/aquatic-plant-detail.webp 404 in 40ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plant-detail.webp received text/html; charset=utf-8
+ GET /sw.js 404 in 114ms
+ GET /images/fish-collection.webp 404 in 273ms
+ ⨯ The requested resource isn't a valid image for /images/fish-collection.webp received text/html; charset=utf-8
+ GET / 200 in 1120ms
+ GET /images/terrarium-category.webp 404 in 143ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 140ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/build-environment.webp 404 in 140ms
+ ⨯ The requested resource isn't a valid image for /images/build-environment.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 141ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 146ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ GET /sw.js 404 in 43ms
+ GET /sw.js 404 in 43ms
+ GET / 200 in 85ms
+ GET / 200 in 99ms
+ GET /images/terrarium-category.webp 404 in 38ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 40ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 32ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 33ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ GET /images/build-environment.webp 404 in 20ms
+ ⨯ The requested resource isn't a valid image for /images/build-environment.webp received text/html; charset=utf-8
+ GET /images/product-1.webp 404 in 30ms
+ ⨯ The requested resource isn't a valid image for /images/product-1.webp received text/html; charset=utf-8
+ GET /images/product-2.webp 404 in 32ms
+ ⨯ The requested resource isn't a valid image for /images/product-2.webp received text/html; charset=utf-8
+ GET /images/product-3.webp 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/product-3.webp received text/html; charset=utf-8
+ GET /images/product-4.webp 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/product-4.webp received text/html; charset=utf-8
+ GET /images/product-5.webp 404 in 37ms
+ ⨯ The requested resource isn't a valid image for /images/product-5.webp received text/html; charset=utf-8
+ GET /images/product-6.webp 404 in 38ms
+ ⨯ The requested resource isn't a valid image for /images/product-6.webp received text/html; charset=utf-8
+ GET /images/aquatic-plant-detail.webp 404 in 33ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plant-detail.webp received text/html; charset=utf-8
+ GET /images/fish-collection.webp 404 in 17ms
+ ⨯ The requested resource isn't a valid image for /images/fish-collection.webp received text/html; charset=utf-8
+ GET /images/gallery-1.webp 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-1.webp received text/html; charset=utf-8
+ GET /images/gallery-3.webp 404 in 38ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-3.webp received text/html; charset=utf-8
+ GET /images/gallery-5.webp 404 in 40ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-5.webp received text/html; charset=utf-8
+ GET /images/gallery-4.webp 404 in 21ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-4.webp received text/html; charset=utf-8
+ GET /images/gallery-2.webp 404 in 26ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-2.webp received text/html; charset=utf-8
+ GET /images/gallery-6.webp 404 in 33ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-6.webp received text/html; charset=utf-8
+ GET /images/build-inhabitants.webp 404 in 29ms
+ ⨯ The requested resource isn't a valid image for /images/build-inhabitants.webp received text/html; charset=utf-8
+ GET / 200 in 88ms
+ GET /images/terrarium-category.webp 404 in 40ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 41ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 32ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ GET /images/build-environment.webp 404 in 27ms
+ ⨯ The requested resource isn't a valid image for /images/build-environment.webp received text/html; charset=utf-8
+ GET /images/product-1.webp 404 in 28ms
+ ⨯ The requested resource isn't a valid image for /images/product-1.webp received text/html; charset=utf-8
+ GET /images/product-2.webp 404 in 28ms
+ ⨯ The requested resource isn't a valid image for /images/product-2.webp received text/html; charset=utf-8
+ GET /images/product-3.webp 404 in 23ms
+ ⨯ The requested resource isn't a valid image for /images/product-3.webp received text/html; charset=utf-8
+ GET /images/product-4.webp 404 in 32ms
+ ⨯ The requested resource isn't a valid image for /images/product-4.webp received text/html; charset=utf-8
+ GET /images/product-5.webp 404 in 33ms
+ ⨯ The requested resource isn't a valid image for /images/product-5.webp received text/html; charset=utf-8
+ GET /images/product-6.webp 404 in 34ms
+ ⨯ The requested resource isn't a valid image for /images/product-6.webp received text/html; charset=utf-8
+ GET /images/aquatic-plant-detail.webp 404 in 27ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plant-detail.webp received text/html; charset=utf-8
+ GET /sw.js 404 in 38ms
+ GET /images/fish-collection.webp 404 in 44ms
+ ⨯ The requested resource isn't a valid image for /images/fish-collection.webp received text/html; charset=utf-8
+ GET /images/gallery-1.webp 404 in 26ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-1.webp received text/html; charset=utf-8
+ GET /images/gallery-3.webp 404 in 26ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-3.webp received text/html; charset=utf-8
+ GET /images/gallery-5.webp 404 in 27ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-5.webp received text/html; charset=utf-8
+ GET /images/gallery-4.webp 404 in 22ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-4.webp received text/html; charset=utf-8
+ GET /images/gallery-2.webp 404 in 36ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-2.webp received text/html; charset=utf-8
+ GET /images/gallery-6.webp 404 in 34ms
+ ⨯ The requested resource isn't a valid image for /images/gallery-6.webp received text/html; charset=utf-8
+ ✓ Compiled in 1085ms (1280 modules)
+ ✓ Compiled in 738ms (1280 modules)
+ ⨯ ./components/Navbar.tsx
+Error: 
+  [31mx[0m Unexpected token `button`. Expected jsx identifier
+     ,-[[36;1;4mC:\Users\USER\Desktop\client\terrarium-store\components\Navbar.tsx[0m:148:1]
+ [2m148[0m |   label: string;
+ [2m149[0m | }) {
+ [2m150[0m |   return (
+ [2m151[0m |     <button
+     : [31;1m     ^^^^^^[0m
+ [2m152[0m |       aria-label={label}
+ [2m153[0m |       className={`hidden h-10 w-10 items-center justify-center rounded-full transition-colors sm:flex ${
+ [2m154[0m |         scrolled ? "text-white hover:bg-white/10" : "text-navy-900 hover:bg-navy-900/5"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/Navbar.tsx
+./app/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./components/Navbar.tsx
+Error: 
+  [31mx[0m Unexpected token `button`. Expected jsx identifier
+     ,-[[36;1;4mC:\Users\USER\Desktop\client\terrarium-store\components\Navbar.tsx[0m:148:1]
+ [2m148[0m |   label: string;
+ [2m149[0m | }) {
+ [2m150[0m |   return (
+ [2m151[0m |     <button
+     : [31;1m     ^^^^^^[0m
+ [2m152[0m |       aria-label={label}
+ [2m153[0m |       className={`hidden h-10 w-10 items-center justify-center rounded-full transition-colors sm:flex ${
+ [2m154[0m |         scrolled ? "text-white hover:bg-white/10" : "text-navy-900 hover:bg-navy-900/5"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/Navbar.tsx
+./app/page.tsx
+ ⨯ ./components/Navbar.tsx
+Error: 
+  [31mx[0m Unexpected token `button`. Expected jsx identifier
+     ,-[[36;1;4mC:\Users\USER\Desktop\client\terrarium-store\components\Navbar.tsx[0m:148:1]
+ [2m148[0m |   label: string;
+ [2m149[0m | }) {
+ [2m150[0m |   return (
+ [2m151[0m |     <button
+     : [31;1m     ^^^^^^[0m
+ [2m152[0m |       aria-label={label}
+ [2m153[0m |       className={`hidden h-10 w-10 items-center justify-center rounded-full transition-colors sm:flex ${
+ [2m154[0m |         scrolled ? "text-white hover:bg-white/10" : "text-navy-900 hover:bg-navy-900/5"
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/Navbar.tsx
+./app/page.tsx
+ GET /sw.js 500 in 586ms
+ ✓ Compiled /_not-found in 491ms (1507 modules)
+ ✓ Compiled in 669ms (1507 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ components\AquariumScene.tsx (148:13) @ BOWL_CX
+ ⨯ ReferenceError: BOWL_CX is not defined
+    at eval (./components/AquariumScene.tsx:257:21)
+    at Array.from (<anonymous>)
+    at eval (./components/AquariumScene.tsx:254:78)
+    at AquariumScene (./components/AquariumScene.tsx:254:67)
+digest: "1876884201"
+[0m [90m 146 |[39m     () [33m=>[39m[0m
+[0m [90m 147 |[39m       [33mArray[39m[33m.[39m[36mfrom[39m({ length[33m:[39m [35m8[39m }[33m,[39m () [33m=>[39m ({[0m
+[0m[31m[1m>[22m[39m[90m 148 |[39m         cx[33m:[39m [33mBOWL_CX[39m [33m-[39m [35m80[39m [33m+[39m [33mMath[39m[33m.[39mrandom() [33m*[39m [35m160[39m[33m,[39m[0m
+[0m [90m     |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 149 |[39m         r[33m:[39m [35m1.8[39m [33m+[39m [33mMath[39m[33m.[39mrandom() [33m*[39m [35m3[39m[33m,[39m[0m
+[0m [90m 150 |[39m         duration[33m:[39m [35m4[39m [33m+[39m [33mMath[39m[33m.[39mrandom() [33m*[39m [35m5[39m[33m,[39m[0m
+[0m [90m 151 |[39m         begin[33m:[39m [33mMath[39m[33m.[39mrandom() [33m*[39m [35m7[39m[33m,[39m[0m
+ GET / 500 in 480ms
+ GET /sw.js 404 in 51ms
+ ✓ Compiled in 542ms (1507 modules)
+ GET /sw.js 404 in 111ms
+ ✓ Compiled in 767ms (1502 modules)
+ ✓ Compiled in 594ms (1502 modules)
+ ✓ Compiled in 471ms (1502 modules)
+ ✓ Compiled in 427ms (1502 modules)
+ ✓ Compiled in 394ms (1502 modules)
+ ✓ Compiled in 448ms (1502 modules)
+ ✓ Compiled in 1170ms (1502 modules)
+ ✓ Compiled in 749ms (1502 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\client-development\2.pack.gz_' -> 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\client-development\2.pack.gz'
+ ✓ Compiled in 592ms (1502 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\server-development\0.pack.gz_' -> 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\server-development\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\client-development\0.pack.gz_' -> 'C:\Users\USER\Desktop\client\terrarium-store\.next\cache\webpack\client-development\0.pack.gz'
+ ✓ Compiled /_not-found in 360ms (1491 modules)
+ GET / 404 in 542ms
+ GET /_next/static/css/app/layout.css?v=1783892663794 404 in 73ms
+ GET /_next/static/chunks/main-app.js?v=1783892663794 404 in 72ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 72ms
+ GET /_next/static/chunks/app/layout.js 404 in 72ms
+ GET / 200 in 223ms
+ GET /_next/static/css/app/layout.css?v=1783892668365 404 in 48ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 131ms
+ GET /_next/static/chunks/app/page.js 404 in 131ms
+ GET /_next/static/chunks/main-app.js?v=1783892668365 404 in 134ms
+ GET /_next/static/chunks/app/layout.js 404 in 110ms
+ GET /images/terrarium-category.webp 404 in 35ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 35ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 37ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 38ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ GET /images/build-environment.webp 404 in 43ms
+ ⨯ The requested resource isn't a valid image for /images/build-environment.webp received text/html; charset=utf-8
+ GET /images/product-1.webp 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/product-1.webp received text/html; charset=utf-8
+ GET /images/product-2.webp 404 in 31ms
+ ⨯ The requested resource isn't a valid image for /images/product-2.webp received text/html; charset=utf-8
+ GET / 200 in 63ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 601ms (1493 modules)
+ ⨯ Error: Cannot find module 'C:\Users\USER\Desktop\client\terrarium-store\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\build\utils.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1500:15)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1600:12)
+    at mod.require (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\USER\Desktop\client\terrarium-store\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\build\utils.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1500:15)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1600:12)
+    at mod.require (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\USER\Desktop\client\terrarium-store\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\build\utils.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1500:15)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1600:12)
+    at mod.require (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module 'C:\Users\USER\Desktop\client\terrarium-store\.next\server\pages\_document.js'
+Require stack:
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\build\utils.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1500:15)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1600:12)
+    at mod.require (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\USER\Desktop\client\terrarium-store\node_modules\next\dist\server\next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\USER\\Desktop\\client\\terrarium-store\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET /_next/static/css/app/layout.css?v=1783892680860 500 in 785ms
+ GET /_next/static/chunks/main-app.js?v=1783892680860 500 in 780ms
+ GET /_next/static/chunks/app-pages-internals.js 500 in 779ms
+ GET /_next/static/chunks/app/page.js 500 in 778ms
+ GET /_next/static/chunks/app/layout.js 404 in 772ms
+ GET /images/terrarium-category.webp 404 in 57ms
+ ⨯ The requested resource isn't a valid image for /images/terrarium-category.webp received text/html; charset=utf-8
+ GET /images/aquatic-plants-category.webp 404 in 57ms
+ ⨯ The requested resource isn't a valid image for /images/aquatic-plants-category.webp received text/html; charset=utf-8
+ GET /images/fish-category.webp 404 in 57ms
+ ⨯ The requested resource isn't a valid image for /images/fish-category.webp received text/html; charset=utf-8
+ GET /images/aquascaping-category.webp 404 in 57ms
+ ⨯ The requested resource isn't a valid image for /images/aquascaping-category.webp received text/html; charset=utf-8
+ ✓ Compiled in 838ms (1502 modules)
+ ✓ Compiled in 472ms (1502 modules)
+ ✓ Compiled in 734ms (1502 modules)
+ ✓ Compiled in 756ms (1502 modules)
+ ✓ Compiled /_not-found in 371ms (1491 modules)
+ GET /sw.js 404 in 505ms
+ ✓ Compiled in 658ms (1505 modules)
+ ✓ Compiled in 655ms (1505 modules)
+ GET /sw.js 404 in 120ms
+ ○ Compiling /_error ...
+ GET / 200 in 691ms
+ GET / 404 in 8893ms

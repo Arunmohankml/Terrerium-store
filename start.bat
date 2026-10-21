@@ -1,0 +1,3 @@
+@echo off
+echo Starting TerreriumStore Development Server...
+npm run dev
