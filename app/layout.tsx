@@ -19,11 +19,13 @@ export const metadata: Metadata = {
     "Handmade terrariums, moss gardens and little aquatic worlds. Made with care to bring a bit of green into your everyday life.",
   icons: {
     icon: [
-      { url: "/favicon.ico" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/icon.png", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-icon.png" },
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
 };

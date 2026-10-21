@@ -123,12 +123,12 @@ export const Navbar: React.FC = () => {
                 href="/"
                 className="flex items-center space-x-2.5 sm:space-x-3 cursor-pointer select-none group"
               >
-                <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+                <div className="relative w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
                   <Image
                     src="/logo.png"
                     alt="AquaTerra Logo"
-                    width={36}
-                    height={36}
+                    width={44}
+                    height={44}
                     className="w-full h-full object-contain"
                     priority
                   />

@@ -79,12 +79,12 @@ export const Footer: React.FC = () => {
           {/* Brand Info */}
           <div className="col-span-2 space-y-4">
             <Link href="/" className="flex items-center space-x-3 group select-none">
-              <div className="relative w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
+              <div className="relative w-10 h-10 sm:w-11 sm:h-11 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src="/logo.png"
                   alt="AquaTerra Logo"
-                  width={36}
-                  height={36}
+                  width={44}
+                  height={44}
                   className="w-full h-full object-contain"
                 />
               </div>
