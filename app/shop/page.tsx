@@ -103,32 +103,16 @@ function ShopContent() {
   }, [selectedCategory, selectedCare, inStockOnly, search]);
 
   return (
-    <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-6">
+    <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8 pt-3 sm:pt-4 pb-12 space-y-5 sm:space-y-6">
       
       {/* Top Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-6 border-b border-zinc-100">
-        <div className="space-y-2">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-zinc-100 text-xs font-semibold text-zinc-700">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#f87171]" />
-            <span>BOTANICAL INVENTORY</span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl font-semibold text-zinc-950 tracking-tight">
-            Store Catalog & Living Specimens
-          </h1>
-          <p className="text-sm text-zinc-500 font-normal">
-            Browse our living collections, self-sustaining moss jars, and tabletop aquascapes.
-          </p>
-        </div>
-
-        {/* Live inventory counter */}
-        <div className="hidden sm:flex items-center space-x-3 flex-shrink-0">
-          <div className="bg-[#f4f4f6] border border-zinc-200/80 rounded-2xl px-4 py-2 flex items-center space-x-2.5 shadow-2xs">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-            <span className="text-xs font-mono font-bold text-zinc-800">
-              {filteredProducts.length} Specimens Available
-            </span>
-          </div>
-        </div>
+      <div className="pb-4 sm:pb-5 border-b border-zinc-100 space-y-1 sm:space-y-1.5">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-zinc-950 tracking-tight">
+          Store Catalog & Living Specimens
+        </h1>
+        <p className="text-xs sm:text-sm text-zinc-500 font-normal">
+          Browse our living collections, self-sustaining moss jars, and tabletop aquascapes.
+        </p>
       </div>
 
       {/* Sticky Search & Sort Top Bar */}
