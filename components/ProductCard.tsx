@@ -47,7 +47,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <div className="bg-[#f4f4f6] rounded-2xl sm:rounded-[28px] p-3 sm:p-5 pb-4 sm:pb-6 border border-zinc-200/60 hover:border-zinc-300/90 transition-all duration-300 flex flex-col justify-between group shadow-2xs hover:shadow-xs">
+    <div className="bg-[#f4f4f6] rounded-2xl sm:rounded-[28px] p-3 sm:p-5 pb-3.5 sm:pb-5 border border-zinc-200/60 hover:border-zinc-300/90 transition-all duration-300 flex flex-col justify-between group shadow-2xs hover:shadow-xs">
       
       {/* Top Image Container */}
       <div>
@@ -99,8 +99,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </div>
       </div>
 
-      {/* Bottom Price & Action (Pushed further down with generous vertical breathing room) */}
-      <div className="pt-3 sm:pt-6 mt-3 sm:mt-5 border-t border-zinc-200/60 flex flex-col xs:flex-row xs:items-center justify-between gap-2 xs:gap-1">
+      {/* Bottom Price & Action */}
+      <div className="pt-2.5 sm:pt-3.5 mt-2.5 sm:mt-3 border-t border-zinc-200/60 flex flex-col xs:flex-row xs:items-center justify-between gap-2 xs:gap-1">
         <div className="space-y-0.5">
           <span className="text-[9px] sm:text-[11px] uppercase text-zinc-400 font-semibold tracking-wide block">
             Studio Price
