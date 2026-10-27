@@ -98,7 +98,7 @@ export const Navbar: React.FC = () => {
       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
       <WishlistDrawer isOpen={wishlistOpen} onClose={() => setWishlistOpen(false)} />
 
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-zinc-100/90 transition-all">
+      <header className="sticky top-0 z-40 relative bg-white/95 backdrop-blur-md border-b border-zinc-100/90 transition-all">
         <div className="max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             
@@ -266,22 +266,35 @@ export const Navbar: React.FC = () => {
               </AnimatedButton>
 
             </div>
-
           </div>
+        </div>
 
-          {/* ======================================================== */}
-          {/* MOBILE BURGER EXPANDABLE MENU (2 Items Per Row Grid)    */}
-          {/* ======================================================== */}
-          <AnimatePresence>
-            {mobileMenuOpen && (
+        {/* ======================================================== */}
+        {/* MOBILE BURGER OVERLAY MENU (Overlaps page content)      */}
+        {/* ======================================================== */}
+        <AnimatePresence>
+          {mobileMenuOpen && (
+            <>
+              {/* Dimmed backdrop overlay covering page content */}
               <motion.div
-                initial={{ opacity: 0, height: 0 }}
-                animate={{ opacity: 1, height: "auto" }}
-                exit={{ opacity: 0, height: 0 }}
-                transition={{ duration: 0.25, ease: "easeInOut" }}
-                className="md:hidden overflow-hidden border-t border-zinc-100 bg-white/98 backdrop-blur-lg"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+                onClick={() => setMobileMenuOpen(false)}
+                className="md:hidden fixed inset-0 top-20 bg-zinc-950/25 backdrop-blur-xs z-40"
+                aria-hidden="true"
+              />
+
+              {/* Floating dropdown overlay menu (overlapping, no push-down) */}
+              <motion.div
+                initial={{ opacity: 0, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.22, ease: [0.16, 1, 0.3, 1] }}
+                className="md:hidden absolute top-full left-0 right-0 z-50 bg-white/98 backdrop-blur-xl border-b border-zinc-200/80 shadow-2xl max-h-[calc(100vh-5rem)] overflow-y-auto overscroll-contain"
               >
-                <div className="py-4 space-y-3.5">
+                <div className="max-w-[1680px] mx-auto px-4 sm:px-6 py-4 space-y-3.5">
                   
                   {/* 2 Items Per Row Grid for All Options */}
                   <div className="grid grid-cols-2 gap-2.5">
@@ -465,10 +478,9 @@ export const Navbar: React.FC = () => {
 
                 </div>
               </motion.div>
-            )}
-          </AnimatePresence>
-
-        </div>
+            </>
+          )}
+        </AnimatePresence>
       </header>
     </>
   );
