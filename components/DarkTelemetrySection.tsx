@@ -58,10 +58,10 @@ export const DarkTelemetrySection: React.FC = () => {
           {CRAFT_FEATURES.map((feature, idx) => (
             <div
               key={idx}
-              className="bg-[#f4f4f6] rounded-[32px] p-6 sm:p-7 border border-zinc-200/70 shadow-2xs hover:shadow-xs hover:border-zinc-300 transition-all duration-300 flex flex-col justify-between space-y-6 group"
+              className="bg-[#f4f4f6] rounded-[32px] p-6 sm:p-7 border border-zinc-200/70 shadow-2xs hover:shadow-xs hover:border-zinc-300 transition-all duration-300 flex flex-col group"
             >
               {/* Very Curved Terrarium Image */}
-              <div className="aspect-[4/3] rounded-[24px] overflow-hidden relative bg-white border border-zinc-200/60 shadow-2xs">
+              <div className="aspect-[4/3] rounded-[24px] overflow-hidden relative bg-white border border-zinc-200/60 shadow-2xs flex-shrink-0">
                 <Image
                   src={resolveImageAsset(feature.image)}
                   alt={feature.title}
@@ -77,7 +77,7 @@ export const DarkTelemetrySection: React.FC = () => {
               </div>
 
               {/* Friendly Content Below Image */}
-              <div className="space-y-2.5">
+              <div className="mt-6 flex-1 flex flex-col justify-start space-y-2.5">
                 <h3 className="text-xl sm:text-2xl font-bold text-zinc-950 tracking-tight">
                   {feature.title}
                 </h3>
@@ -86,14 +86,14 @@ export const DarkTelemetrySection: React.FC = () => {
                 </p>
               </div>
 
-              {/* Simple Benefits / Perks */}
-              <div className="pt-4 border-t border-zinc-200/60 flex flex-wrap gap-2">
-                <span className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white border border-zinc-200/70 text-xs font-semibold text-zinc-800 shadow-2xs">
-                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+              {/* Simple Benefits / Perks - Uniform 2-row layout with smaller refined text */}
+              <div className="mt-auto pt-4 border-t border-zinc-200/60 flex flex-col items-start gap-2">
+                <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 sm:px-3 sm:py-1 rounded-xl bg-white border border-zinc-200/70 text-[11px] sm:text-xs font-semibold text-zinc-800 shadow-2xs">
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>{feature.perk1}</span>
                 </span>
-                <span className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white border border-zinc-200/70 text-xs font-semibold text-zinc-800 shadow-2xs">
-                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+                <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 sm:px-3 sm:py-1 rounded-xl bg-white border border-zinc-200/70 text-[11px] sm:text-xs font-semibold text-zinc-800 shadow-2xs">
+                  <Check className="w-3.5 h-3.5 text-emerald-600 flex-shrink-0" />
                   <span>{feature.perk2}</span>
                 </span>
               </div>
