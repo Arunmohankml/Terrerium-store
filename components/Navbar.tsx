@@ -41,7 +41,7 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
   { id: "shop", label: "Store", href: "/shop", matchPrefix: true, hasDropdown: true },
   { id: "build", label: "Custom Builder", href: "/build", hasDropdown: true },
-  { id: "care", label: "Care Guide", href: "/care" },
+  { id: "guide", label: "Guide", href: "/guide" },
   { id: "about", label: "Craftsmanship", href: "/about" },
   { id: "contact", label: "Contact", href: "/contact" },
 ];
@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
     if (!pathname) return null;
     if (pathname.startsWith("/shop")) return "shop";
     if (pathname === "/build") return "build";
-    if (pathname === "/care") return "care";
+    if (pathname.startsWith("/guide") || pathname.startsWith("/care")) return "guide";
     if (pathname === "/about") return "about";
     if (pathname === "/contact") return "contact";
     if (pathname.startsWith("/admin")) return "admin";
@@ -349,27 +349,27 @@ export const Navbar: React.FC = () => {
                       </div>
                     </Link>
 
-                    {/* Item 3: Care Guide */}
+                    {/* Item 3: Guide */}
                     <Link
-                      href="/care"
+                      href="/guide"
                       onClick={() => setMobileMenuOpen(false)}
                       className={`p-3.5 rounded-2xl border transition-all active:scale-[0.98] flex flex-col justify-between space-y-2.5 ${
-                        activeNav === "care"
+                        activeNav === "guide"
                           ? "bg-zinc-900 text-white border-zinc-900 shadow-xs"
                           : "bg-[#f4f4f6] text-zinc-800 border-zinc-200/70 hover:bg-zinc-200"
                       }`}
                     >
                       <div className={`w-8 h-8 rounded-xl flex items-center justify-center shadow-2xs ${
-                        activeNav === "care" ? "bg-zinc-800 text-white" : "bg-white text-zinc-900"
+                        activeNav === "guide" ? "bg-zinc-800 text-white" : "bg-white text-zinc-900"
                       }`}>
                         <BookOpen className="w-4 h-4" />
                       </div>
                       <div>
-                        <p className="text-xs font-bold">Care Guide</p>
+                        <p className="text-xs font-bold">Guide</p>
                         <p className={`text-[10px] font-mono ${
-                          activeNav === "care" ? "text-zinc-300" : "text-zinc-500"
+                          activeNav === "guide" ? "text-zinc-300" : "text-zinc-500"
                         }`}>
-                          Maintenance
+                          Manuals & Tips
                         </p>
                       </div>
                     </Link>

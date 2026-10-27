@@ -115,8 +115,8 @@ export const Footer: React.FC = () => {
           <div className="space-y-3 text-xs">
             <p className="font-bold uppercase tracking-wider text-zinc-900">Care & Studio</p>
             <ul className="space-y-2 text-zinc-500">
-              <li><Link href="/care" className="hover:text-zinc-900 transition-colors">Terrarium Care Guide</Link></li>
-              <li><Link href="/care#water" className="hover:text-zinc-900 transition-colors">Moisture Cycle Balancing</Link></li>
+              <li><Link href="/guide" className="hover:text-zinc-900 transition-colors">Field Guides & Manuals</Link></li>
+              <li><Link href="/guide" className="hover:text-zinc-900 transition-colors">Terrarium & Fish Care</Link></li>
               <li><Link href="/about" className="hover:text-zinc-900 transition-colors">Craftsmanship & Botany</Link></li>
               <li><Link href="/contact" className="hover:text-zinc-900 transition-colors">Studio Consultations</Link></li>
               <li><Link href="/account" className="hover:text-zinc-900 transition-colors">Order History</Link></li>
